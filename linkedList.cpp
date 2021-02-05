@@ -112,7 +112,7 @@ void insertAtEnd(node **head, int data)
 	newnode->next = NULL;
 	if(*head == NULL)
 		*head = newnode;
-	else		1qqqq
+	else		
 	{
 		while(temp->next != NULL)
 			temp = temp->next;
